@@ -24,21 +24,21 @@ Once successful, the generated parser can be reused for the same bank’s statem
 
 ## Setup Instructions
 
-1. ** Clone and set up environment **
+1. **Clone and set up environment**
 git clone https://github.com/anvith-1001/karbon-ai-anvi.git
 cd karbon_bank_ai
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
-2. ** Install dependencies **
+2. **Install dependencies**
    pip install -r requirements.txt
 
-3. ** Configure API key **
+3. **Configure API key**
    Create a .env file in the project root with your Gemini API key:
    GOOGLE_API_KEY=your_api_key_here
 
-4. ** Prepare input files **
+4. **Prepare input files**
    Place your bank statement and schema in the data/ folder:
 
    data/{bankname}_statements.pdf
@@ -48,7 +48,7 @@ source .venv/bin/activate   # Linux/Mac
    data/icici_statements.pdf
    data/icici_expected.csv
 
-6. ** Run the agent **
+5. **Run the agent**
    python agent.py --bank <bank_name>
 
    For example:
