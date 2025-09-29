@@ -100,22 +100,17 @@ data/icici_expected.csv
 Your `requirements.txt` should include:
 
 ```
+google-generativeai
+python-dotenv
 pandas
 PyPDF2
-python-dotenv
-google-generativeai
-```
-
-Optional (for debugging / development):
-
-```
-argparse
+pypdf
 ```
 
 Install all with:
 
 ```bash
-pip install -r requirements.txt
+pip install -r 'requirements.txt'
 ```
 
 ---
