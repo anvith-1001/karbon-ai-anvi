@@ -13,11 +13,6 @@ The agent uses **Google Gemini API** to generate, validate, and self-correct par
 * [Requirements](#-requirements)
 * [Usage](#-usage)
 * [Workflow Diagram](#-workflow-diagram)
-* [Key Features](#-key-features)
-* [Example](#-example)
-* [Project Structure](#-project-structure)
-* [License](#-license)
-
 ---
 
 ##  Overview
