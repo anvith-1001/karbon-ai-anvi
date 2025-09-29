@@ -145,12 +145,12 @@ This will:
 ## Workflow Diagram
 
 ```
-         ┌─────────────┐
+         ┌─────────────-┐
          │ Bank PDF     │
          └──────┬───────┘
                 │
                 ▼
-         ┌─────────────┐
+         ┌─────────────-┐
          │ Extract text │
          └──────┬───────┘
                 │
@@ -163,16 +163,16 @@ This will:
         Save as custom_parsers/{bank}_parser.py
                 │
                 ▼
-         ┌─────────────┐
+         ┌─────────────-┐
          │ Run parser   │
          │ dynamically  │
          └──────┬───────┘
                 │
                 ▼
-         ┌────────────────┐
+         ┌───────────────-─┐
          │ Validate output │
          │ against schema  │
-         └──────┬─────────┘
+         └──────┬─────────-┘
                 │
         Success? ──────────────► Store parser (Reusable)
                 │
